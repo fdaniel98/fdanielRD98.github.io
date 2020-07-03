@@ -7,6 +7,8 @@
     "@types/node": "12.7.2",
     "@types/react": "16.9.2",
     "@types/react-dom": "16.9.0",
+    "axios": "^0.19.0",
+    "formbuilder": "git+https://fdanielconcentra@bitbucket.org/portaldeservicios/formbuilder.git",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
@@ -16,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "update-form": "npm r form-builder && npm install git+https://fdanielconcentra@bitbucket.org/portaldeservicios/formbuilder.git"
   },
   "eslintConfig": {
     "extends": "react-app"

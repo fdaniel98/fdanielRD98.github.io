@@ -1,0 +1,52 @@
+.field {
+    transition: all ease-in-out .5s;
+}
+
+.field:hover {
+    transform: scale(1.03)
+}
+
+.btn {
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.03)
+}
+
+.field:hover .options-field {
+    opacity: 1;
+}
+
+.options-field {
+    transition: all ease-in-out .5s;
+    opacity: 0;
+}
+
+.icon-click {
+    transition: all ease-in-out .5s;
+    color: #25378f;
+    cursor: pointer;
+}
+
+.icon-click:hover {
+    transform: scale(1.15)
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chip {
+    margin: 2;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    overflow: auto;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
